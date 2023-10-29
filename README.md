@@ -1,1 +1,2 @@
-# apo_rest_express_mdb
+##Curso de 
+#Node.js: criando uma API Rest com Express e MongoDB
