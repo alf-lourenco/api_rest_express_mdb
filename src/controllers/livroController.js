@@ -1,5 +1,8 @@
 import livro from "../models/Livros.js";
 
+/**
+ * Controla as requisicoes dos livros
+ */
 class LivroController {
 
    static async listarLivros(req, res) {
@@ -62,4 +65,5 @@ class LivroController {
    };
 
 }
+
 export default LivroController
