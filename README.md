@@ -3,7 +3,8 @@
 ## Instalando dependencias
 `node v21.0.0 `
 `npm init -y`
-`npm install express`
+`npm install express@4.18.1`
+`npm install mongoose@7.4.3`
 `npm install mongodb`
 
 ## Iniciando a aplicação

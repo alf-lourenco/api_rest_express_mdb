@@ -13,7 +13,6 @@ class LivroController {
       } catch (error) {
          res.status(500).json({ message: `${error.message} - falha na requisicao` })
       }
-
    };
 
    static async listarLivroporId(req, res) {
@@ -25,9 +24,7 @@ class LivroController {
       } catch (error) {
          res.status(500).json({ message: `${error.message} - falha na requisicao do livro` })
       }
-
    };
-
 
    static async cadastrarLivro(req, res) {
 
@@ -59,11 +56,9 @@ class LivroController {
          res.status(200).json({ message: "Livro excluido" })
 
       } catch (error) {
-         res.status(500).json({ message: `${error.message} - falha na atualizacao do livro` })
+         res.status(500).json({ message: `${error.message} - falha exclusão do livro` })
       }
-
    };
-
 }
 
 export default LivroController
